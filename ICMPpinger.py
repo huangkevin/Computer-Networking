@@ -99,7 +99,7 @@ def doOnePing(destAddr, timeout):
 
 def ping(host, timeout=1):
     #timeout=1 means: If one second goes by without a reply from the server,
-    #the client assumes that either the client’s ping or the server’s pong is lost
+    #the client assumes that either the clientâ€™s ping or the serverâ€™s pong is lost
     dest = socket.gethostbyname(host)
     print "Pinging " + dest + " using Python:"
     print ""
